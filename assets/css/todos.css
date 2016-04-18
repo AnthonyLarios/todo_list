@@ -29,6 +29,23 @@ li:nth-child(2n) {
   background: #f7f7f7;
 }
 
+input {
+  font-size: 18px;
+  background-color: #f7f7f7;
+  color: #2980b9;
+  width: 100%;
+  padding: 13px 13px 13px 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input:focus {
+  background: white;
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
 #container {
   width: 360px;
   margin: 100px auto;
