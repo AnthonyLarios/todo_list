@@ -52,6 +52,10 @@ input:focus {
   outline: none;
 }
 
+.fa-plus {
+  float: right;
+}
+
 #container {
   width: 360px;
   margin: 100px auto;
